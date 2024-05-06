@@ -1,0 +1,59 @@
+{% extends 'base.html' %}
+
+{% block content %} 
+
+<!-- Intro -->
+<section class="text-center">
+    <div class="container p-5">
+        <div class="row">
+            <div class="d-flex align-items-center justify-content-center">
+                <img src="../../static/images/kermit.jpg" class="img-fluid p-5" alt="kermit" id="index_img">
+                <div class="center text-lg" id="intro-text">Kermit</div>
+            </div>
+
+            <div>
+                <button class="btn btn-danger"><a href="{{ url_for('auth.signup') }}">Welcome</button></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+            <!-- Database Info -->
+<section class="features-tile">
+    <div class="d-flex align-items-center justify-content-center">
+        <h3>my cham fam tree</h3>
+    </div>
+    <div class="main-tile-dimension">
+        <div class="features">
+            <div class="image-container-features">
+                <img src="../static/images/really_loop.jpg" alt="chams">
+            </div>
+            <div class="perk-name">
+                <h2>Male Chameleon</h2>
+            </div>
+            <div class="perk-info">Panther/Ambilode</div>
+        </div>
+        <div class="features">
+            <div class="image-container-features">
+                <img src="../static/images/baby_chams.jpg" alt="chams">
+            </div>
+            <div class="perk-name">
+                <h2>Chameleon Eggs</h2>
+            </div>
+            <div class="perk-info">baby_chameleons</div>
+        </div>
+        <div class="features">
+            <div class="image-container-features">
+                <img src="../static/images/female_chams.jpg" alt="chams">
+            </div>
+            <div class="perk-name">
+                <h2>Female Chameleons</h2>
+            </div>
+            <div class="perk-info">panther chameleons </div>
+        </div>
+        
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}

@@ -1,0 +1,128 @@
+*,*:before,*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+  }
+  
+  body {
+    padding-top: 50px;
+  }
+  
+  nav {
+    background: linear-gradient(#910815, #aa6269);
+  }
+  
+  img {
+    border-radius: 50%;
+    max-width: 50%;
+  }
+  
+  
+  a {
+    color: rgb(185, 188, 191);
+    text-decoration: none;
+  }
+  
+  a:hover {
+    font-weight: bold;
+  }
+  
+  .text-center {
+    position: relative;
+  }
+  .center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 0 0 9px #000506;
+    font-size: 30px;
+    color:rgb(234, 240, 242);
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+  }
+  
+  .features-header {
+  
+    justify-content: center;
+    height: 100px;
+    align-items: flex-end;
+    padding-top: 100px;    
+  }
+  
+  .main-tile-dimension {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+  
+  
+  .features {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33%;
+    flex-grow: 1;
+  } 
+  
+  .bottom {
+    background: linear-gradient(#910815, #aa6269);
+    color: rgb(9, 7, 7);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    margin-bottom: 0px;
+    justify-content: space-evenly;
+  }
+  
+  .footerimage {
+    width: 500px;
+    padding: 2%;
+    padding-left: 10px;
+  }
+  
+  .bottomimage {
+    width: 500px;
+    border-radius: 0%;
+  }
+  
+  .footinfo {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font: 0.6em;
+  
+  }
+  
+  .about {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font: 0.6em;
+    color: rgb(232, 237, 241);
+  }
+  
+  .socials {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font: 0.6em;
+    color: rgb(223, 228, 233);
+  }
+  
+  .foothead {
+    font-size: 2em;
+  }
+  
+  .redirect {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  .redirect-link {
+    color: goldenrod;
+  }
